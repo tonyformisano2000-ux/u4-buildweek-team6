@@ -11,7 +11,7 @@
         <class>team6.entities.AcquistoViaggio</class>
         <class>team6.entities.Biglietto</class>
         <class>team6.entities.Abbonamento</class>
-        <class>team6.entities.Timbratura</class>
+<!--        <class>team6.entities.Timbratura</class>-->
         <class>team6.entities.Mezzo</class>
         <class>team6.entities.StatoMezzo</class>
 
