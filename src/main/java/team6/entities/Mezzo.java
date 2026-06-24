@@ -14,7 +14,7 @@ public class Mezzo {
     private long id;
 
     private int capienza;
-
+    @Enumerated(EnumType.STRING)
     private tipoVeicolo veicolo;
 
     @OneToMany(mappedBy = "mezzo", cascade = CascadeType.ALL)
@@ -22,6 +22,9 @@ public class Mezzo {
 
     @OneToMany(mappedBy = "mezzo", cascade = CascadeType.ALL)
     private List<Biglietto> biglietti;
+
+    @OneToMany(mappedBy = "mezzo", cascade = CascadeType.ALL)
+    private List<Percorrenza> percorrenze;
 
     public Mezzo() {
 
